@@ -64,7 +64,7 @@ public class TestHarness {
 		List<PhonebookEntry> selectedEntries = phonebookHander.binarySearch(sortedContacts, name);
 		for (PhonebookEntry entry : selectedEntries) {
 			
-			System.out.println("Entries for " + name + " " +  entry.getType() + " " + entry.getPhoneNumber());
+			System.out.println("Entries for " + name + " " +  entry.getType() + " " + entry.getNum());
 		}
 	}
 	
